@@ -18,10 +18,14 @@ public class UserService {
 	public List<User> findAll() {
 		return userRository.findAll();
 	}
-	
+
 	public User findById(Long id) {
 		Optional<User> obj = userRository.findById(id);
 		return obj.get();
+	}
+
+	public User Insert(User user) {
+		return userRository.save(user);
 	}
 
 }

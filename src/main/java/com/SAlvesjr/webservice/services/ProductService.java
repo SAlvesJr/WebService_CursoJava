@@ -1,4 +1,4 @@
-package com.SAlvesjr.webservice.service;
+package com.SAlvesjr.webservice.services;
 
 import java.util.List;
 import java.util.Optional;

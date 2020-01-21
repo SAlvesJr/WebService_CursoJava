@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.SAlvesjr.webservice.entities.User;
-import com.SAlvesjr.webservice.service.UserService;
+import com.SAlvesjr.webservice.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.SAlvesjr.webservice.entities.Order;
-import com.SAlvesjr.webservice.service.OrderService;
+import com.SAlvesjr.webservice.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.SAlvesjr.webservice.entities.Category;
-import com.SAlvesjr.webservice.service.CategoryService;
+import com.SAlvesjr.webservice.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")

@@ -28,4 +28,8 @@ public class UserService {
 		return userRository.save(user);
 	}
 
+	public void delete(Long id) {
+		userRository.deleteById(id);
+	}
+
 }
